@@ -1,0 +1,219 @@
+{
+  "title": "AI 产品发布会 · 示例项目",
+  "brand": "示例科技",
+  "theme": "ai-futuristic",
+  "canvas": {
+    "width": 1920,
+    "height": 1080,
+    "safeMargin": 0.07
+  },
+  "fps": 30,
+  "fonts": {
+    "heading": "Inter",
+    "body": "Noto Sans SC"
+  },
+  "themeTokens": {
+    "background": "#07111B",
+    "primary": "#F3FBFF",
+    "accent": "#00E5FF"
+  },
+  "output": {
+    "video": true,
+    "editablePptx": true,
+    "highFidelityPptx": false,
+    "directory": "dist"
+  },
+  "assets": {},
+  "scenes": [
+    {
+      "id": "opening",
+      "duration": 5,
+      "background": "#050A12",
+      "layout": "hero",
+      "notes": "开场：建立产品发布会氛围。",
+      "elements": [
+        {
+          "type": "text",
+          "text": "PRODUCT LAUNCH 2026",
+          "x": 120,
+          "y": 170,
+          "w": 1680,
+          "h": 55,
+          "fontSize": 24,
+          "color": "#62E8F5",
+          "align": "center",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "text": "让复杂，变得简单。",
+          "x": 160,
+          "y": 340,
+          "w": 1600,
+          "h": 170,
+          "fontSize": 92,
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "text": "新一代 AI 工作平台",
+          "x": 300,
+          "y": 555,
+          "w": 1320,
+          "h": 80,
+          "fontSize": 38,
+          "color": "#A9C3D0",
+          "align": "center"
+        }
+      ]
+    },
+    {
+      "id": "problem",
+      "duration": 6,
+      "background": "#081421",
+      "layout": "split",
+      "notes": "从用户痛点切入。",
+      "elements": [
+        {
+          "type": "text",
+          "text": "信息很多，行动太慢。",
+          "x": 150,
+          "y": 260,
+          "w": 1500,
+          "h": 130,
+          "fontSize": 72,
+          "color": "#FFFFFF",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "text": "工具分散 · 流程割裂 · 知识难以复用",
+          "x": 155,
+          "y": 430,
+          "w": 1500,
+          "h": 80,
+          "fontSize": 34,
+          "color": "#8FAAB8"
+        }
+      ]
+    },
+    {
+      "id": "reveal",
+      "duration": 7,
+      "background": "#06101C",
+      "layout": "product",
+      "notes": "产品揭晓。产品图位置可替换为真实产品渲染图。",
+      "elements": [
+        {
+          "type": "shape",
+          "shape": "ellipse",
+          "x": 650,
+          "y": 170,
+          "w": 620,
+          "h": 620,
+          "fill": "#0B5365",
+          "opacity": 0.28
+        },
+        {
+          "type": "text",
+          "text": "Meet  WX AI",
+          "x": 180,
+          "y": 260,
+          "w": 1560,
+          "h": 130,
+          "fontSize": 88,
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "text": "一个平台，连接你的知识、内容与业务",
+          "x": 220,
+          "y": 440,
+          "w": 1480,
+          "h": 80,
+          "fontSize": 36,
+          "color": "#71DCE8",
+          "align": "center"
+        }
+      ]
+    },
+    {
+      "id": "capability",
+      "duration": 7,
+      "background": "#0A1724",
+      "layout": "feature",
+      "notes": "能力页：后续替换为已验证的真实功能。",
+      "elements": [
+        {
+          "type": "text",
+          "text": "从理解，到执行。",
+          "x": 130,
+          "y": 160,
+          "w": 1660,
+          "h": 120,
+          "fontSize": 76,
+          "color": "#FFFFFF",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "text": "知识检索        内容生成        工作流自动化",
+          "x": 150,
+          "y": 430,
+          "w": 1620,
+          "h": 110,
+          "fontSize": 42,
+          "color": "#7DE5EF",
+          "align": "center"
+        },
+        {
+          "type": "text",
+          "text": "让每一次洞察，都能转化为下一步行动。",
+          "x": 200,
+          "y": 650,
+          "w": 1520,
+          "h": 75,
+          "fontSize": 30,
+          "color": "#A8BAC6",
+          "align": "center"
+        }
+      ]
+    },
+    {
+      "id": "closing",
+      "duration": 5,
+      "background": "#050A12",
+      "layout": "hero",
+      "notes": "收束与行动号召。",
+      "elements": [
+        {
+          "type": "text",
+          "text": "BUILD WHAT'S NEXT.",
+          "x": 180,
+          "y": 300,
+          "w": 1560,
+          "h": 130,
+          "fontSize": 82,
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "text": "让 AI，真正进入业务。",
+          "x": 260,
+          "y": 500,
+          "w": 1400,
+          "h": 80,
+          "fontSize": 40,
+          "color": "#00E5FF",
+          "align": "center"
+        }
+      ]
+    }
+  ]
+}

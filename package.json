@@ -1,0 +1,26 @@
+{
+  "name": "keynote-studio-pro",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "validate": "node scripts/validate-project.js",
+    "render:video": "node scripts/render-remotion.js",
+    "export:pptx": "node scripts/export-pptx.js",
+    "render:all": "npm run validate -- project.json && npm run render:video -- project.json && npm run export:pptx -- project.json"
+  },
+  "dependencies": {
+    "@remotion/cli": "^4.0.300",
+    "@remotion/media": "^4.0.300",
+    "remotion": "^4.0.300",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "pptxgenjs": "^3.12.0",
+    "ajv": "^8.17.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3",
+    "@types/react": "^19.1.0",
+    "@types/node": "^22.15.0"
+  }
+}

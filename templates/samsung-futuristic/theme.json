@@ -1,0 +1,22 @@
+{
+  "name": "Futuristic Glass",
+  "palette": {
+    "background": "#080D1C",
+    "surface": "#16223A",
+    "primary": "#F5F8FF",
+    "accent": "#7C9CFF",
+    "secondary": "#48E0E8",
+    "muted": "#9DAAC4"
+  },
+  "typography": {
+    "display": "Inter",
+    "heading": "Inter",
+    "body": "Noto Sans SC"
+  },
+  "motion": {
+    "entrance": "camera-push",
+    "transition": "light-scan",
+    "easing": "easeOut"
+  },
+  "layout": "product"
+}

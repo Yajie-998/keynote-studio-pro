@@ -1,0 +1,21 @@
+{
+  "name": "Industrial Cinematic",
+  "palette": {
+    "background": "#08090B",
+    "surface": "#1A1C20",
+    "primary": "#FFFFFF",
+    "accent": "#E53935",
+    "muted": "#A4A8AE"
+  },
+  "typography": {
+    "display": "Inter",
+    "heading": "Inter",
+    "body": "Noto Sans SC"
+  },
+  "motion": {
+    "entrance": "camera-push",
+    "transition": "cinematic-cut",
+    "easing": "easeInOut"
+  },
+  "layout": "hero"
+}

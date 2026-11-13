@@ -1,0 +1,22 @@
+{
+  "name": "AI Futuristic",
+  "palette": {
+    "background": "#07111B",
+    "surface": "#102B3B",
+    "primary": "#F3FBFF",
+    "accent": "#00E5FF",
+    "secondary": "#47D7A4",
+    "muted": "#91AAB8"
+  },
+  "typography": {
+    "display": "Inter",
+    "heading": "Inter",
+    "body": "Noto Sans SC"
+  },
+  "motion": {
+    "entrance": "light-scan",
+    "transition": "morph",
+    "easing": "easeInOut"
+  },
+  "layout": "diagram"
+}

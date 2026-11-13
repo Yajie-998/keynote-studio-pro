@@ -1,0 +1,21 @@
+{
+  "name": "Apple-inspired Minimal",
+  "palette": {
+    "background": "#050505",
+    "surface": "#151515",
+    "primary": "#FFFFFF",
+    "accent": "#B8C7D9",
+    "muted": "#8A8A8A"
+  },
+  "typography": {
+    "display": "Inter",
+    "heading": "Inter",
+    "body": "Noto Sans SC"
+  },
+  "motion": {
+    "entrance": "fade-up",
+    "transition": "cinematic-cut",
+    "easing": "easeInOut"
+  },
+  "layout": "hero"
+}

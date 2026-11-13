@@ -1,0 +1,22 @@
+{
+  "name": "Google-inspired Gradient",
+  "palette": {
+    "background": "#101426",
+    "surface": "#202944",
+    "primary": "#FFFFFF",
+    "accent": "#8B9BFF",
+    "secondary": "#55D6BE",
+    "muted": "#B6BDD2"
+  },
+  "typography": {
+    "display": "Manrope",
+    "heading": "Manrope",
+    "body": "Noto Sans SC"
+  },
+  "motion": {
+    "entrance": "reveal-mask",
+    "transition": "morph",
+    "easing": "easeInOut"
+  },
+  "layout": "split"
+}

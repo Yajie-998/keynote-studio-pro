@@ -1,0 +1,21 @@
+{
+  "name": "Luxury Premium",
+  "palette": {
+    "background": "#11100F",
+    "surface": "#24211D",
+    "primary": "#F5F0E8",
+    "accent": "#C9A96E",
+    "muted": "#AFA89D"
+  },
+  "typography": {
+    "display": "Manrope",
+    "heading": "Manrope",
+    "body": "Noto Sans SC"
+  },
+  "motion": {
+    "entrance": "fade-up",
+    "transition": "fade",
+    "easing": "easeInOut"
+  },
+  "layout": "hero"
+}
